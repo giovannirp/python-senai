@@ -1,2 +1,0 @@
-# python-senai
-# Giovanni Ribeiro
