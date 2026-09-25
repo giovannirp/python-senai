@@ -1,6 +1,6 @@
 # Enunciado:
 # Crie um dicionário com 5 alunos e suas respectivas idades. 
-# Use for para percorrer o dicionário e if para mostrar apenas 
+# Use for para percorrer o dicionário o if para mostrar apenas 
 # os alunos com idade maior ou igual a 18 anos.
 
 # Saída:
@@ -17,3 +17,10 @@ alunos = {
     "Mariana": 19,
     "Pedro": 18
 }
+
+#Percorrendo o dicionário
+for nome, idade in alunos.items():
+
+    # Verificando a idade
+    if idade >= 18:
+        print(nome, "é maior de idade: ", idade)
